@@ -4,14 +4,14 @@
 * 도서명: 
 * 번역자: 
 * ISBN: 
-* URL: [출판사명](http://호스트/경로)
+* URL: [Link](url)
 
-![도서명](http://호스트:포트/경로)
+![Image](src)
 
 ## 원서
 * 도서명: 
 * 번역자: 
 * ISBN: 
-* URL: [출판사명](http://호스트/경로)
+* URL: [Link](url)
 
-![도서명](http://호스트:포트/경로)
+![Image](src)

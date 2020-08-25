@@ -1,6 +1,6 @@
 ---
 name: bug
-about: 버그를 고칠 수 있게 알려주세요(Create a report to help us improve)
+about: 버그를 고칠 수 있게 알려주세요
 title: "[버그] "
 labels: 버그가 있어요(bug)
 assignees: ''

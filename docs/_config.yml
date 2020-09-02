@@ -1,4 +1,6 @@
-title: Template Public Title
-logo: /assets/img/profile.jpeg
-description: description
+title: 책 제목
+logo: /assets/img/cover.jpg
+description: 책 설명 한 줄 요약
+show_downloads: 
+google_analytics: 
 theme: jekyll-theme-minimal

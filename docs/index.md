@@ -1,59 +1,37 @@
-## Posts
+## 도서 정보
+
+```
+책 설명 간단히 문장으로 서술
+```
+
+### 원서
+
+* 원서: [책 제목]()
+* 저자: [이름]()
+* 출판사: [이름]()
+
+### 번역서
+
+* 번역서: [책 제목]()
+* 번역자: [이름]()
+* 출판사: [이름]()
+
+[다른 페이지](another-page.html)
+
+* * *
+
+## 새소식
 
 <ul>
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>
 
-## Tags
+* * *
 
-{% for tag in site.tags %}
-  <h3>{{ tag[0] }}</h3>
-  <ul>
-    {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+## 판매처
 
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/project-zzom/template/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/project-zzom/template/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[교보문고]() / [영풍문고]() / [Yes24]() / [알라딘]() / [인터파크]()

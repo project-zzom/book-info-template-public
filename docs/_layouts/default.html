@@ -17,7 +17,7 @@
             <h1><a href="{{ " / " | absolute_url }}">{{ site.translation.title.main }}</a></h1>
 
             {% if site.translation.cover.url %}
-            <img class="cover" src="{{ site.translation.cover.url }}" alt="Cover" /> {% endif %}
+            <img class="cover" src="{{ site.translation.cover.url | relative_url }}" alt="Cover" /> {% endif %}
 
             <p>{{ site.translation.description.short }}</p>
 

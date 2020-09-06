@@ -9,7 +9,7 @@ translation:
     name: 출판사 이름
     url: http://zzom.io
   cover:
-    url: assets/images/cover.jpg
+    url: /assets/images/cover.jpg
   authors: 
     - ['번역자1', 'https://www.facebook.com/sangjae.shin']
     - ['번역자2', 'https://www.facebook.com/sangjae.shin2']

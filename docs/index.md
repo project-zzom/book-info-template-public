@@ -1,17 +1,15 @@
 ## 도서 정보
 
->
-> {{ site.translation.description.long }}
->
+[원서 정보](original-book-info.html) / [정오표]({{ site.translated.errata.url }}) / [고객 지원]({{ site.github.issues_url }}/new/choose/) 
 
-* 이름: [{{ site.translation.title.main }}]()
+> {{ site.translated.description.long }}
+
+* 도서명: [{{ site.translated.title.main }}]()
 * 번역자: 
-{% for author in site.translation.authors %}[{{ author[0] }}]({{ author[1]}}){% unless forloop.last%},{% endunless %}{% endfor %}
-* 출판사: [{{ site.translation.publisher.name }}]({{ site.translation.publisher.url }})
+{% for author in site.translated.authors %}[{{ author[0] }}]({{ author[1]}}){% unless forloop.last%},{% endunless %}{% endfor %}
+* 출판사: [{{ site.translated.publisher.name }}]({{ site.translated.publisher.url }})
 
-[베타 리더](beta-readers.html) / [원서 정보](original-book-info.html) / [오탈자 제보 및 개선 요청]({{ site.github.issues_url }}/new/choose/)
-
-* * *
+***
 
 ## 새소식
 
@@ -23,8 +21,14 @@
   {% endfor %}
 </ul>
 
-* * *
+***
 
 ## 판매처
 
-[교보문고]() / [영풍문고]() / [Yes24]() / [알라딘]() / [인터파크]()
+[교보문고]({{ site.translated.store.kyobo }}) / [영풍문고]({{ site.translated.store.youngpoong }}) / [Yes24]({{ site.translated.store.yes24 }}) / [알라딘]({{ site.translated.store.aladin }}) / [인터파크]({{ site.translated.store.interpark }})
+
+***
+
+## 도움을 주신 분
+
+[베타 리더](beta-readers.html)

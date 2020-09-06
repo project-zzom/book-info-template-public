@@ -27,6 +27,11 @@ dl {
     margin: 0 0 20px;
 }
 
+p.center {
+    text-align: center;
+    word-break: keep-all;
+}
+
 h1,
 h2,
 h3 {
@@ -122,7 +127,19 @@ img {
 }
 
 img.cover {
-    border: 1px solid gray
+    border: 1px solid gray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+img.cover-middle {
+    border: 1px solid gray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 header {

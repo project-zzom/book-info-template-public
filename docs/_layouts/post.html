@@ -8,5 +8,4 @@ layout: default
 작성일: {{ page.date | date: "%Y년 %m월 %d일" }} / 작성자: {{ page.author | default: site.author }}</small>
 </div>
 <hr/>
-{{content}} {% if page.tags %}
-<small>태그: <em>{{ page.tags | join: "</em> - <em>" }}</em></small> {% endif %}
+{{content}} {% if page.tags %} <small>태그: <em>{{ page.tags | join: "</em> - <em>" }}</em></small> {% endif %}

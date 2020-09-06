@@ -4,7 +4,19 @@ layout: default
 
 ## 원서 정보
 
-* 원서: [책 제목]()
-* 저자: [이름]()
-* 출판사: [이름]()
-* Amazon: [Amazon]()
+> {{ site.original.description.long }}
+
+* 도서명: [{{ site.original.title.main }}]()
+* 저자: 
+{% for author in site.original.authors %}[{{ author[0] }}]({{ author[1]}}){% unless forloop.last%},{% endunless %}{% endfor %}
+* 출판사: [{{ site.original.publisher.name }}]({{ site.original.publisher.url }})
+
+{% if site.original.cover.url %}
+<img class="cover" src="{{ site.original.cover.url | relative_url }}" alt="Cover" class="cover-middle"/> 
+{% endif %}
+
+***
+
+## 판매처
+
+[Amazon]({{ site.original.store.amazon }})

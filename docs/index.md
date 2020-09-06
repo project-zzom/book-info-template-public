@@ -9,7 +9,7 @@
 {% for author in site.translation.authors %}[{{ author[0] }}]({{ author[1]}}){% unless forloop.last%},{% endunless %}{% endfor %}
 * 출판사: [{{ site.translation.publisher.name }}]({{ site.translation.publisher.url }})
 
-[베타 리더](beta-readers.html) / [원서 정보](original-book-info.html) / [오탈자 제보 및 개선 요청]({{ site.github }})
+[베타 리더](beta-readers.html) / [원서 정보](original-book-info.html) / [오탈자 제보 및 개선 요청]({{ site.github.issues_url }})
 
 * * *
 

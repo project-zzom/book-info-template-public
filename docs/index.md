@@ -1,22 +1,15 @@
 ## 도서 정보
 
 >
-> 책에서 인상적인 부분 인용
+> {{ site.translation.description.long }}
 >
 
-### 원서
+* 이름: [{{ site.translation.title.main }}]()
+* 번역자: 
+{% for author in site.translation.authors %}[{{ author[0] }}]({{ author[1]}}){% unless forloop.last%},{% endunless %}{% endfor %}
+* 출판사: [{{ site.translation.publisher.name }}]({{ site.translation.publisher.url }})
 
-* 원서: [책 제목]()
-* 저자: [이름]()
-* 출판사: [이름]()
-
-### 번역서
-
-* 번역서: [책 제목]()
-* 번역자: [이름]()
-* 출판사: [이름]()
-
-[다른 페이지](another-page.html)
+[베타 리더](beta-readers.html) / [원서 정보](original-book-info.html) / [정오표]() / [오탈자 제보]()
 
 * * *
 

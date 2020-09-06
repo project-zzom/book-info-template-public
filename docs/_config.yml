@@ -1,6 +1,20 @@
-title: 책 제목
-logo: /assets/img/cover.jpg
-description: 책 설명 한 줄 요약
-show_downloads: 
-google_analytics: 
+translation:
+  title:
+    main: 책 이름
+    sub: 부제목
+  description:
+    short: 한 줄 소개
+    long: 한 단락 소개
+  publisher: 
+    name: 출판사 이름
+    url: http://zzom.io
+  cover:
+    url: /assets/images/cover.jpg
+  authors: 
+    - ['번역자1', 'https://www.facebook.com/sangjae.shin']
+    - ['번역자2', 'https://www.facebook.com/sangjae.shin2']
+  errata: http://zzom.io
+
 theme: jekyll-theme-minimal
+plugins:
+  - "jekyll-github-metadata"

@@ -3,9 +3,9 @@ layout: default
 ---
 
 <h2>{{ page.title }}</h2>
-<div>
-<small>
-작성일: {{ page.date | date: "%Y년 %m월 %d일" }} / 작성자: {{ page.author | default: site.author }}</small>
-</div>
-<hr/>
+<p class="author">
+    <span class="date">{{ page.date | date: "%Y년 %m월 %d일" }} / {{ page.author | default: site.author }}</span>
+</p>
+<div class="content">
 {{content}} {% if page.tags %} <small>태그: <em>{{ page.tags | join: "</em> - <em>" }}</em></small> {% endif %}
+</div>

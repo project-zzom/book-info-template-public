@@ -18,4 +18,4 @@ layout: default
 
 ## 판매처
 
-[Amazon]({{ site.original.store.amazon }})
+{% for store in site.data.stores-original %}<a href="{{ store.link }}" target="{{ store.target }}">{{ store.name }}</a>{% unless forloop.last%} / {% endunless %}{% endfor %}

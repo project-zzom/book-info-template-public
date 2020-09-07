@@ -11,13 +11,7 @@ translated:
   cover:
     url: /assets/images/cover-translated.jpg
   isbn-13: 9788965402282
-  store:
-    kyobo: http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9788965402282
-    youngpoong: http://www.ypbooks.co.kr/book.yp?bookcd=100908494
-    yes24: http://www.yes24.com/Product/Goods/66913718
-    aladin: https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=174000475
-    interpark: http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=296746999
-
+  
 original:
   title:
     main: 人工知能プログラミングのための数学がわかる本
@@ -31,11 +25,13 @@ original:
   cover:
     url: /assets/images/cover-original.jpg
   isbn-13: 9784046021960
-  store:
-    amazon: https://www.amazon.co.jp/dp/4046021969/
 
+
+paginate: 5
+paginate_path: "/news/page:num"
 
 google_analytics: 
 theme: jekyll-theme-minimal
 plugins:
   - "jekyll-github-metadata"
+  - "jekyll-paginates"

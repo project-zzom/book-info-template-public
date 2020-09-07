@@ -11,10 +11,10 @@ translated:
   cover:
     url: /assets/images/cover-translated.jpg
   authors: 
-    - author1:
+    - author:
       name: 이진희
       facebook: https://www.facebook.com/jinhee.lee.33886
-    - author2:
+    - author:
       name: 신상재
       facebook: https://www.facebook.com/sangjae.shin
   isbn-13: 9788965402282
@@ -40,7 +40,9 @@ original:
   cover:
     url: /assets/images/cover-original.jpg
   authors:
-    - ['石川 聡彦', 'https://www.facebook.com/aki1275']
+    - author: 
+      name: 石川 聡彦
+      facebook: https://www.facebook.com/aki1275
   isbn-13: 9784046021960
   store:
     amazon: https://www.amazon.co.jp/dp/4046021969/

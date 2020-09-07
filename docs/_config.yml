@@ -11,8 +11,12 @@ translated:
   cover:
     url: /assets/images/cover-translated.jpg
   authors: 
-    - [이진희, 'https://www.facebook.com/jinhee.lee.33886']
-    - [신상재, 'https://www.facebook.com/sangjae.shin']
+    - author1:
+      name: 이진희
+      facebook: https://www.facebook.com/jinhee.lee.33886
+    - author2:
+      name: 신상재
+      facebook: https://www.facebook.com/sangjae.shin
   isbn-13: 9788965402282
   errata: 
     url: https://freelec.co.kr/datacenter/?board_name=DataCenter2&vid=120

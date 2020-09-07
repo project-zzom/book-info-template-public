@@ -5,8 +5,7 @@
 > {{ site.translated.description.long }}
 
 * 도서명: [{{ site.translated.title.main }}]()
-* 번역자: 
-{% for author in site.translated.authors %}[{{ author.name }}]({{ author.facebook }}){% unless forloop.last%},{% endunless %}{% endfor %}
+* 번역자: {% for author in site.data.authors-translated %}[{{ author.name }}]({{ author.facebook }}){% unless forloop.last%}, {% endunless %}{% endfor %}
 * 출판사: [{{ site.translated.publisher.name }}]({{ site.translated.publisher.url }})
 
 ***

@@ -7,7 +7,7 @@ layout: default
 > {{ site.original.description.long }}
 
 * 도서명: [{{ site.original.title.main }}]()
-* 저자: {% for author in site.data.authors-original %}[{{ author.name }}]({{ author.facebook }}){% unless forloop.last%}, {% endunless %}{% endfor %}
+* 저자: {% for author in site.data.authors-original %}[{{ author.name }}]({{ author.profile }}){% unless forloop.last%}, {% endunless %}{% endfor %}
 * 출판사: [{{ site.original.publisher.name }}]({{ site.original.publisher.url }})
 
 {% if site.original.cover.url %}

@@ -1,10 +1,10 @@
 ## 번역서 정보
 
-> {{ site.translated.description.long }}
+> {{ site.data.books.translated.description.long }}
 
-* 도서명: [{{ site.translated.title.main }}]()
+* 도서명: [{{ site.data.books.translated.title.main }}]()
 * 번역자: {% for author in site.data.authors-translated %}[{{ author.name }}]({{ author.profile }}){% unless forloop.last%}, {% endunless %}{% endfor %}
-* 출판사: [{{ site.translated.publisher.name }}]({{ site.translated.publisher.url }})
+* 출판사: [{{ site.data.books.translated.publisher.name }}]({{ site.data.books.translated.publisher.url }})
 
 ***
 

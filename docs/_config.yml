@@ -1,7 +1,7 @@
 title: Book Info
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://zzom.io/template-translated-book-info" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 lang: ko_KR
 
 paginate: 5

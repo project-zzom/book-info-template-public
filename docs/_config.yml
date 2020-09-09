@@ -1,3 +1,10 @@
+title: Book Info
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://zzom.io/template-translated-book-info/" # the base hostname & protocol for your site
+author: Copyright &copy; 2020 - Project ZZOM
+lang: ko_KR
+
 paginate: 5
 paginate_path: "/news/page:num"
 

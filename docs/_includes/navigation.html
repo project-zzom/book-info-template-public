@@ -2,7 +2,8 @@
     {% for item in site.data.navigation %}
         <a href="{{ item.link | relative_url}}" {% if page.url == item.link %}style="font-weight: bold;"{% endif %} target="{{ item.target }}">{{ item.name }}</a> / 
     {% endfor %}
-    <a href="{{ site.baseurl }}/releases/" target="_blank">다운로드</a> / 
-    <a href="{{ site.baseurl }}/issues/new/choose/" target="_blank">이슈</a> / 
-    <a href="{{ site.baseurl }}/discussions/" target="_blank">고객 지원</a>
+    <a href="{{ site.github.releases_url }}" target="_blank">다운로드</a> / 
+    <a href="{{ site.github.wiki_url }}" target="_blank">위키</a> / 
+    <a href="{{ site.github.issues_url }}/new/choose/" target="_blank">이슈</a> / 
+    <a href="{{ site.github.discussions_rul }}" target="_blank">고객 지원</a>
 </nav>

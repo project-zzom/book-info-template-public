@@ -8,7 +8,7 @@
 
 ***
 
-## 새소식
+## 관련 소식
 
 <ul>
   {% for post in site.posts %}
